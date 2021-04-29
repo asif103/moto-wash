@@ -1,0 +1,21 @@
+.missionContainer{
+    height: max-content;
+    display: block;
+    position: relative;
+}
+
+.missionContainer::after{
+    content: "";
+    background-image: url("../../../images/banner001.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center center;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+}
